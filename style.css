@@ -1,0 +1,115 @@
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+ 
+  .app-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+ 
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+
+  input {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+
+  .scale-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+
+  label {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 126, 95, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+
+  button:hover {
+    background: linear-gradient(135deg, #feb47b 0%, #ff7e5f 100%);
+    box-shadow: 0 6px 20px rgba(255, 126, 95, 0.7);
+    transform: translateY(-3px);
+  }
+  
+
+  #result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  
